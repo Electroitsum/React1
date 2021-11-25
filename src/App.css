@@ -1,0 +1,372 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cover {
+  background-image: url("./Images/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.bar {
+  display: inline-block;
+  height: 10px;
+  width: 100px;
+  background-color: tomato;
+  border-radius: 5px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* overflow-y: visible;
+  overflow-x: hidden; */
+  background-color: black;
+  height: 300px;
+  width: 100%;
+}
+
+.bdy {
+  background-image: url("./Images/body.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.carcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.cardd {
+  display: flex;
+  /* border: 2px solid red; */
+  height: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.num {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  background-color: tomato;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.tablet {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  bottom: 100px;
+  height: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  .tablet {
+    height: 60%;
+  }
+}
+
+.road {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./Images/road.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  width: 100%;
+  color: white;
+}
+
+.roadhead {
+  width: 50%;
+  /* margin-bottom: 50px; */
+}
+
+.imgcon {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  min-height: 30%;
+  /* border: 2px solid red; */
+  min-height: 200px;
+  width: 100%;
+}
+
+.imgpattern {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  /* border: 1px solid red; */
+}
+
+.img1 {
+  background-image: url("./Images/img5.jpg");
+}
+
+.img2 {
+  background-image: url("./Images/img2.jpg");
+}
+
+.img3 {
+  background-image: url("./Images/img4.jpg");
+}
+
+.img4 {
+  background-image: url("./Images/img3.jpg");
+}
+
+.img5 {
+  background-image: url("./Images/img1.jpg");
+}
+
+.btn {
+  background-color: coral;
+}
+
+.about {
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.acard {
+  width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  min-height: 230px;
+}
+
+.acardcon {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 30px;
+  padding-bottom: 3em;
+}
+
+.cardh {
+  display: flex;
+  min-height: 100%;
+}
+
+.sucs {
+  background-image: url("./Images/sucs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.sucsCon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.lapImg {
+  display: inline-block;
+  background-image: url("./Images/sucs1.jpg");
+  background-position: center;
+  /* border: 2px solid red; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0px 20px 0px 20px;
+  /* flex: 30%; */
+  /* background-color: cornflowerblue; */
+  height: max-content;
+  min-height: 400px;
+}
+
+.para {
+  display: inline-block;
+  color: white;
+  margin: 0px 20px 0px 20px;
+  text-align: start;
+  /* background-color: chartreuse; */
+  /* flex: 30%; */
+}
+
+.hdPara {
+  display: flex;
+  /* flex: 30%; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: tomato;
+
+  height: 80%;
+
+  margin: 0px 20px 0px 20px;
+  /* background-color: coral; */
+}
+
+.cla {
+  min-height: 70vh;
+}
+
+.cacon {
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+  width: 70%;
+  background-color: "black";
+}
+
+.ppic {
+  max-height: 80%;
+  flex: 30%;
+  padding: 0;
+  /* background-color: brown; */
+}
+
+.discp {
+  min-height: 80%;
+  flex: 70%;
+  /* background-color: green ; */
+}
+
+.cah1 {
+  color: white;
+  margin: 20px;
+  height: 20%;
+}
+.cap {
+  color: white;
+  margin: 40px 20px 20px 20px;
+  font-size: 20px;
+  text-align: start;
+  height: 70%;
+}
+
+.cah5 {
+  margin: 10px 20px 80px 20px;
+  text-align: start;
+  color: white;
+  height: 10%;
+}
+
+.ppic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.propic {
+  height: 150px;
+  border-radius: 75px;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  min-height: 100px;
+  background-color: gray;
+}
+
+.cardp {
+  height: 100px;
+}
+
+.cardh {
+  height: 30px;
+}
+
+.carconm {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .carconm {
+    min-height: 700px;
+  }
+}
+
+.cardp1 {
+  /* border: 1px solid red; */
+  text-align: start;
+}
+
+.cardh22 {
+  /* border: 1px solid green; */
+  display: flex;
+  padding-top: 10px;
+  display: block;
+}
+
+.cardincon {
+  padding-top: 20px;
+  height: 100%;
+}
